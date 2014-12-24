@@ -231,8 +231,24 @@ a {
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
+a:hover, a:focus {
+  color: #73d0ff;
+}
+
+a:visited {
+  color: #53b0e5;
+}
+
 h1 a {
-  color: #b5ff33;
+  color: #b0ff11;
+}
+
+h1 a:hover, h1 a:focus {
+  color: #c0ff21;
+}
+
+h1 a:visited {
+  color: #a0ef01;
 }
 
 /* Clearfix */
