@@ -18,8 +18,7 @@ section {
   margin: auto;
 }
 
-h1 {
-  font-size: 30px;
+h1, h2 {
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
@@ -30,6 +29,14 @@ h1 {
                0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 p {
@@ -56,14 +63,14 @@ a:visited {
   color: #43a0d5;
 }
 
-h1 a {
+h2 a {
   color: #b5ff11;
 }
 
-h1 a:hover, h1 a:focus {
+h2 a:hover, h2 a:focus {
   color: #d5ff00;
 }
 
-h1 a:visited {
+h2 a:visited {
   color: #95df33;
 }
