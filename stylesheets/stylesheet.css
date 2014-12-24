@@ -232,23 +232,23 @@ a {
 }
 
 a:hover, a:focus {
-  color: #73d0ff;
+  color: #83e0ff;
 }
 
 a:visited {
-  color: #53b0e5;
+  color: #43a0d5;
 }
 
 h1 a {
-  color: #b0ff11;
+  color: #b5ff11;
 }
 
 h1 a:hover, h1 a:focus {
-  color: #c0ff21;
+  color: #d5ff00;
 }
 
 h1 a:visited {
-  color: #a0ef01;
+  color: #95df33;
 }
 
 /* Clearfix */
