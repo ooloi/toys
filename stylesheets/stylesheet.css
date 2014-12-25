@@ -11,9 +11,7 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-/* General & 'Reset' Stuff */
-
-section {
+div {
   width: 90%;
   display: block;
   margin: auto;
@@ -21,7 +19,6 @@ section {
 
 h1, h2 {
   line-height: 1.5;
-  margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
