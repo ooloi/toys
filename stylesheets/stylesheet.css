@@ -8,23 +8,22 @@ body {
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 div {
-  width: 90%;
-  display: block;
+  width: 30%;
+  display: inline-block;
   margin: auto;
+  background-color: #748B9F;
+  background-color: rgba(205, 255, 225, 0.2);
 }
 
 h1, h2 {
   line-height: 1.5;
   font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
 }
@@ -49,12 +48,12 @@ hr {
 }
 
 a {
-  color: #63c0f5;
+  color: #96daff;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
 
 a:hover, a:focus {
-  color: #83e0ff;
+  color: #76badf;
 }
 
 a:visited {
