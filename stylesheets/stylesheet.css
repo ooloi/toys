@@ -12,11 +12,14 @@ body {
 }
 
 div {
-  width: 30%;
   display: inline-block;
   margin: auto;
   background-color: #748B9F;
   background-color: rgba(205, 255, 225, 0.2);
+}
+
+img{
+    max-width: 100%;
 }
 
 h1, h2 {
