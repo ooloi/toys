@@ -1,0 +1,53 @@
+body {
+  display: inline;
+  padding: 2em;
+  background: #0a2a00;
+}
+
+h1 {
+  font: 2em;
+  line-height: 2.1em;
+  font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-weight: bold;
+  color: #99ff00;
+  -webkit-font-smoothing: antialiased;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px dashed #99ff00;
+  color: #99ff00;
+}
+
+div {
+  display: inline-block;
+  max-width: 49em;
+  padding: 1em;
+  border: 1px dotted #99ff00;
+  background-color: #134f00;
+}
+
+img{
+    width: 100%;
+}
+
+h2 {
+  font: 1.4em;
+  line-height: 1.5em;
+  font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #44ff44;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 a {
+  color: #44ff44;
+}
+
+h2 a:hover, h2 a:focus {
+  color: #00ffaa;
+}
+
+h2 a:visited {
+  color: #99ff00;
+}
