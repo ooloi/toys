@@ -1,12 +1,12 @@
 body {
   display: inline;
-  padding: 2em;
   background: #0a2a00;
 }
 
 h1 {
-  font: 2em;
-  line-height: 2.1em;
+  margin-left: 2em;
+  font: 2.7em;
+  line-height: 2.9em;
   font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-weight: bold;
   color: #99ff00;
@@ -14,18 +14,22 @@ h1 {
 }
 
 hr {
+  margin-left: 2em;
+  margin-right: 2em;
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #99ff00;
+  border-bottom: 0.2em dashed #99ff00;
   color: #99ff00;
 }
 
 div {
   display: inline-block;
-  max-width: 49em;
+  max-width: 30em;
   padding: 1em;
-  border: 1px dotted #99ff00;
-  background-color: #134f00;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  border: 0.1em dashed #99ff00;
+  background-color: #0d2f00;
 }
 
 img{
@@ -36,18 +40,17 @@ h2 {
   font: 1.4em;
   line-height: 1.5em;
   font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #44ff44;
   -webkit-font-smoothing: antialiased;
 }
 
-h2 a {
+a {
   color: #44ff44;
 }
 
-h2 a:hover, h2 a:focus {
+a:hover, a:focus {
   color: #00ffaa;
 }
 
-h2 a:visited {
+a:visited {
   color: #99ff00;
 }
