@@ -1,35 +1,47 @@
 body {
   display: inline;
-  background: #0a2a00;
+  background: #031300;
+  font-family: 'Orbitron', sans-serif;
 }
 
 h1 {
-  margin-left: 2em;
-  font: 2.7em;
-  line-height: 2.9em;
-  font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-weight: bold;
-  color: #99ff00;
-  -webkit-font-smoothing: antialiased;
+  margin-left: 0.5em;
+  font-weight: 900;
+  color: #99ff55;
 }
 
 hr {
-  margin-left: 2em;
-  margin-right: 2em;
-  height: 0;
   border: 0;
-  border-bottom: 0.2em dashed #99ff00;
-  color: #99ff00;
+  border-top: 0.17em dashed #99ff55;
+  color: #99ff55;
+  margin-bottom: 2em;
+}
+
+a {
+  color: #44ff44;
+}
+
+h2:hover, h2:focus, a:hover, a:focus {
+  color: #00ffaa;
+}
+
+h2:visited, a:visited {
+  color: #00eebb;
 }
 
 div {
   display: inline-block;
-  max-width: 30em;
+  max-width: 25em;
+  max-height: 25em;
   padding: 1em;
-  margin-left: 2em;
-  margin-bottom: 2em;
-  border: 0.1em dashed #99ff00;
-  background-color: #0d2f00;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  border: 0.1em dashed #99ff55;
+}
+
+div:hover, div:focus {
+    border: 0.1em dotted #00ffaa;
+    background-color: #0c2c2c;
 }
 
 img{
@@ -37,20 +49,12 @@ img{
 }
 
 h2 {
-  font: 1.4em;
-  line-height: 1.5em;
-  font-family: "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
+  font-weight: 400;
   color: #44ff44;
 }
 
-a:hover, a:focus {
-  color: #00ffaa;
-}
-
-a:visited {
-  color: #99ff00;
+h3 {
+  margin-left: 1em;
+  font-weight: 400;
+  color: #99ff55;
 }
