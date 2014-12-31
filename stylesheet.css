@@ -7,26 +7,14 @@ body {
 h1 {
   margin-left: 0.5em;
   font-weight: 900;
-  color: #99ff55;
+  color: #99ff33;
 }
 
 hr {
   border: 0;
-  border-top: 0.17em dashed #99ff55;
-  color: #99ff55;
+  border-top: 0.17em dashed #99ff33;
+  color: #99ff33;
   margin-bottom: 2em;
-}
-
-a {
-  color: #44ff44;
-}
-
-h2:hover, h2:focus, a:hover, a:focus {
-  color: #00ffaa;
-}
-
-h2:visited, a:visited {
-  color: #00eebb;
 }
 
 div {
@@ -36,7 +24,7 @@ div {
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
-  border: 0.1em dashed #99ff55;
+  border: 0.1em dashed #99ff33;
 }
 
 div:hover, div:focus {
@@ -56,5 +44,17 @@ h2 {
 h3 {
   margin-left: 1em;
   font-weight: 400;
-  color: #99ff55;
+  color: #44ff44;
+}
+
+a {
+  color: #44ff44;
+}
+
+h3:hover, h3:focus, h2:hover, h2:focus, a:hover, a:focus {
+  color: #00ffaa;
+}
+
+h3:visited, h2:visited, a:visited {
+  color: #00eebb;
 }
