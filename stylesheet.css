@@ -17,7 +17,7 @@ hr {
   margin-bottom: 2.3em;
 }
 
-span {
+a {
   display: inline-block;
   width: 25em;
   height: 25em;
@@ -25,15 +25,18 @@ span {
   margin-left: 1em;
   margin-bottom: 1em;
   border: 0.1em dashed #6cfed8;
+  color: #6cfe98;
 }
 
-span:hover, span:focus {
+a:hover, a:focus {
     border: 0.1em dotted #00ffaa;
     background-color: #114720;
+    color: #b6fde9;
 }
 
-span:visited, span:visited {
+a:visited, a:visited {
   border: 0.1em dashed #b6fde9;
+  color: #6cfed8;
 }
 
 img{
@@ -51,14 +54,10 @@ h3 {
   color: #6cfe98;
 }
 
-a {
-  color: #6cfe98;
-}
-
-h3:hover, h3:focus, h2:hover, h2:focus, a:hover, a:focus {
+h3:hover, h3:focus, h2:hover, h2:focus {
   color: #6cfed8;
 }
 
-h3:visited, h2:visited, a:visited {
+h3:visited, h2:visited {
   color: #b6fde9;
 }
