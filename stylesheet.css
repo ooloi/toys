@@ -12,7 +12,7 @@ h1 {
 
 hr {
   border: 0;
-  border-top: 0.17em dashed #99ff33;
+  border-top: 0.17em dashed #c9ff7e;
   color: #c9ff7e;
   margin-bottom: 2.3em;
 }
@@ -24,11 +24,11 @@ a {
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
-  border: 0.1em dashed #6cfed8;
+  border: 0.1em dashed #c9ff7e;
 }
 
 a:hover, a:focus {
-  border: 0.1em dotted #00ffaa;
+  border: 0.1em dotted #6cfed8;
   background-color: #05220c;
 }
 
@@ -37,7 +37,7 @@ a:visited {
 }
 
 a:last-child {
-  all: initial;
+  all: inherit;
 }
 
 img{
@@ -55,9 +55,9 @@ h3 {
 }
 
 h2:hover, h2:focus, h3:hover, h3:focus {
-  color: #b6fde9;
+  color: #6cfed8;
 }
 
 h2:visited, h3:visited {
-  color: #6cfed8;
+  color: #b6fde9;
 }
