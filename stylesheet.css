@@ -1,35 +1,39 @@
 body {
   display: inline;
-  background: #031300;
+  background: #05220c;
   font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
   margin-left: 0.5em;
   font-weight: 400;
-  color: #99ff33;
+  color: #c9ff7e;
 }
 
 hr {
   border: 0;
   border-top: 0.17em dashed #99ff33;
-  color: #99ff33;
-  margin-bottom: 2em;
+  color: #c9ff7e;
+  margin-bottom: 2.3em;
 }
 
 div {
   display: inline-block;
-  max-width: 25em;
-  max-height: 25em;
+  width: 25em;
+  height: 25em;
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
-  border: 0.1em dashed #99ff33;
+  border: 0.1em dashed #6cfed8;
 }
 
 div:hover, div:focus {
     border: 0.1em dotted #00ffaa;
-    background-color: #0c2c2c;
+    background-color: #114720;
+}
+
+div:visited, div:focus {
+  border: 0.1em dashed #b6fde9;
 }
 
 img{
@@ -38,23 +42,23 @@ img{
 
 h2 {
   font-weight: 400;
-  color: #44ff44;
+  color: #6cfe98;
 }
 
 h3 {
   margin-left: 1em;
   font-weight: 400;
-  color: #44ff44;
+  color: #6cfe98;
 }
 
 a {
-  color: #44ff44;
+  color: #6cfe98;
 }
 
 h3:hover, h3:focus, h2:hover, h2:focus, a:hover, a:focus {
-  color: #00ffaa;
+  color: #6cfed8;
 }
 
 h3:visited, h2:visited, a:visited {
-  color: #00eebb;
+  color: #b6fde9;
 }
