@@ -25,30 +25,24 @@ a {
   margin-left: 1em;
   margin-bottom: 1em;
   border: 0.1em dashed #6cfed8;
-  color: #6cfe98;
-  background-color: #05220c;
 }
 
 a:hover, a:focus {
   border: 0.1em dotted #00ffaa;
-  background-color: #114720;
-  color: #b6fde9;
+  background-color: #05220c;
 }
 
-a:visited, a:visited {
+a:visited {
   border: 0.1em dashed #b6fde9;
-  color: #6cfed8;
 }
 
 a:last-child {
-  display: static;
-  width: 100%;
-  border: none;
-  background-color: none;
+  all: initial;
 }
 
 img{
   width: 100%;
+  max-height: 100%;
 }
 
 h2 {
@@ -58,4 +52,12 @@ h2 {
 h3 {
   margin-left: 0.5em;
   color: #6cfe98;
+}
+
+h2:hover, h2:focus, h3:hover, h3:focus {
+  color: #b6fde9;
+}
+
+h2:visited, h3:visited {
+  color: #6cfed8;
 }
