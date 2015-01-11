@@ -19,8 +19,8 @@ hr {
 
 a {
   display: inline-block;
-  max-width: 25em;
-  max-height: 25em;
+  width: 25em;
+  height: 25em;
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
@@ -39,6 +39,16 @@ a:visited, a:visited {
   color: #6cfed8;
 }
 
+a:last-child {
+  display: inline;
+  width: 100%;
+  max-height: 5em;
+}
+
 img{
     width: 100%;
+}
+
+h2, h3 {
+  color: #6cfe98;
 }
