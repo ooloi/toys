@@ -2,11 +2,11 @@ body {
   display: inline;
   background: #05220c;
   font-family: 'Press Start 2P', cursive;
+  font-weight: 400;
 }
 
 h1 {
   margin-left: 0.5em;
-  font-weight: 400;
   color: #c9ff7e;
 }
 
@@ -19,8 +19,8 @@ hr {
 
 a {
   display: inline-block;
-  width: 25em;
-  height: 25em;
+  max-width: 25em;
+  max-height: 25em;
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
@@ -29,9 +29,9 @@ a {
 }
 
 a:hover, a:focus {
-    border: 0.1em dotted #00ffaa;
-    background-color: #114720;
-    color: #b6fde9;
+  border: 0.1em dotted #00ffaa;
+  background-color: #114720;
+  color: #b6fde9;
 }
 
 a:visited, a:visited {
@@ -41,23 +41,4 @@ a:visited, a:visited {
 
 img{
     width: 100%;
-}
-
-h2 {
-  font-weight: 400;
-  color: #6cfe98;
-}
-
-h3 {
-  margin-left: 1em;
-  font-weight: 400;
-  color: #6cfe98;
-}
-
-h3:hover, h3:focus, h2:hover, h2:focus {
-  color: #6cfed8;
-}
-
-h3:visited, h2:visited {
-  color: #b6fde9;
 }
