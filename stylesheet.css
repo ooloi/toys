@@ -17,7 +17,7 @@ hr {
   margin-bottom: 2.3em;
 }
 
-div {
+span {
   display: inline-block;
   width: 25em;
   height: 25em;
@@ -27,12 +27,12 @@ div {
   border: 0.1em dashed #6cfed8;
 }
 
-div:hover, div:focus {
+span:hover, span:focus {
     border: 0.1em dotted #00ffaa;
     background-color: #114720;
 }
 
-div:visited, div:focus {
+span:visited, span:visited {
   border: 0.1em dashed #b6fde9;
 }
 
