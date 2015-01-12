@@ -2,7 +2,7 @@ body {
   display: inline;
   background: #011109;
   font-family: 'Press Start 2P', monospace;
-  text-align: top;
+  vertical-align: top;
 }
 
 h1 {
@@ -45,12 +45,12 @@ img{
 }
 
 h2 {
-  color: #6cfe98;
+  color: #5cff99;
 }
 
 h3 {
   margin-left: 0.5em;
-  color: #6cfe98;
+  color: #5cff99;
 }
 
 h2:hover, h2:focus, h3:hover, h3:focus {
