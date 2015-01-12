@@ -1,8 +1,8 @@
 body {
   display: inline;
   background: #011109;
-  font-family: 'Press Start 2P', cursive;
-  font-weight: 400;
+  font-family: 'Press Start 2P', monospace;
+  text-align: baseline;
 }
 
 h1 {
@@ -13,7 +13,6 @@ h1 {
 hr {
   border: 0;
   border-top: 0.17em dashed #c9ff7e;
-  color: #c9ff7e;
   margin-bottom: 2.3em;
 }
 
@@ -28,7 +27,7 @@ a {
 }
 
 a:hover, a:focus {
-  border: 0.1em dotted #6cfed8;
+  border: 0.1em dotted #6cfdb8;
   background-color: #05220c;
 }
 
@@ -55,7 +54,7 @@ h3 {
 }
 
 h2:hover, h2:focus, h3:hover, h3:focus {
-  color: #6cfed8;
+  color: #6cfdb8;
 }
 
 h2:visited, h3:visited {
