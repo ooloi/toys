@@ -6,12 +6,12 @@ body {
 
 h1 {
   margin-left: 0.5em;
-  color: #c9ff5e;
+  color: #b9ff5e;
 }
 
 hr {
   border: 0;
-  border-top: 0.23em dashed #c9ff5e;
+  border-top: 0.23em dashed #b9ff5e;
   margin-bottom: 2em;
 }
 
@@ -23,16 +23,17 @@ a {
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
-  border: 0.1em dashed #c9ff5e;
+  border: 0.1em dashed #b9ff5e;
+  text-decoration: none;
 }
 
 a:hover, a:focus {
-  border: 0.1em dotted #00efaa;
+  border: 0.1em dotted #00eebb;
   background-color: #05220c;
 }
 
 a:visited {
-  border: 0.1em dashed #6cffb9;
+  border: 0.1em dashed #93ffc5;
 }
 
 a:last-child {
@@ -45,18 +46,18 @@ img{
 }
 
 h2 {
-  color: #4cff99;
+  color: #75ffa3;
 }
 
 h3 {
   margin-left: 0.5em;
-  color: #4cff99;
+  color: #75ffa3;
 }
 
 h2:hover, h2:focus, h3:hover, h3:focus {
-  color: #00efaa;
+  color: #00eebb;
 }
 
 h2:visited, h3:visited {
-  color: #6cffb9;
+  color: #93ffc5;
 }
