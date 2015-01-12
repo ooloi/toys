@@ -6,12 +6,12 @@ body {
 
 h1 {
   margin-left: 0.5em;
-  color: #99ff00;
+  color: #aaff00;
 }
 
 hr {
   border: 0;
-  border-top: 0.23em dashed #99ff00;
+  border-top: 0.23em dashed #aaff00;
   margin-bottom: 2em;
 }
 
