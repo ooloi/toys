@@ -1,17 +1,17 @@
 body {
   display: inline;
-  background: #011109;
+  background: #000300;
   font-family: 'Press Start 2P', monospace;
 }
 
 h1 {
   margin-left: 0.5em;
-  color: #b9ff4e;
+  color: #88e601;
 }
 
 hr {
   border: 0;
-  border-top: 0.23em dashed #b9ff4e;
+  border-top: 0.23em dashed #88e601;
   margin-bottom: 2em;
 }
 
@@ -23,17 +23,13 @@ a {
   padding: 1em;
   margin-left: 1em;
   margin-bottom: 1em;
-  border: 0.1em dashed #b9ff4e;
+  border: 0.1em dashed #88e601;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  border: 0.1em dotted #00eebb;
-  background-color: #05220c;
-}
-
-a:visited {
-  border: 0.1em dashed #93ffd5;
+  border: 0.1em dotted #01ee3b;
+  background-color: #030304;
 }
 
 a:last-child {
@@ -46,18 +42,14 @@ img{
 }
 
 h2 {
-  color: #75ff83;
+  color: #88e601;
 }
 
 h3 {
   margin-left: 0.5em;
-  color: #75ff83;
+  color: #88e601;
 }
 
 h2:hover, h2:focus, h3:hover, h3:focus {
-  color: #00eebb;
-}
-
-h2:visited, h3:visited {
-  color: #93ffd5;
+  color: #01ee3b;
 }
