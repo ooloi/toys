@@ -2,7 +2,7 @@ body {
   display: inline;
   background: #011109;
   font-family: 'Press Start 2P', monospace;
-  text-align: baseline;
+  text-align: top;
 }
 
 h1 {
@@ -27,12 +27,12 @@ a {
 }
 
 a:hover, a:focus {
-  border: 0.1em dotted #6cfdb8;
+  border: 0.1em dotted #00ffaa;
   background-color: #05220c;
 }
 
 a:visited {
-  border: 0.1em dashed #b6fde9;
+  border: 0.1em dashed #6cfdb8;
 }
 
 a:last-child {
@@ -54,9 +54,9 @@ h3 {
 }
 
 h2:hover, h2:focus, h3:hover, h3:focus {
-  color: #6cfdb8;
+  color: #00ffaa;
 }
 
 h2:visited, h3:visited {
-  color: #b6fde9;
+  color: #6cfdb8;
 }
